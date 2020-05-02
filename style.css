@@ -46,6 +46,10 @@
  	position: relative;
  	width: 100%;
  	background-size: cover;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover; 
+	 
  }
 .landing-text {
 	display: table-cell;
@@ -75,6 +79,9 @@
 	width: 100%;
 	background-size: cover;
 	padding: 200px 20px;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover; 
 }
 
 #fixed1 {
@@ -85,6 +92,9 @@
 	width: 100%;
 	background-size: cover;
 	padding: 200px 20px;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover; 
 }
 
 #fixed-footer {
@@ -94,6 +104,9 @@
 	position: relative;
 	width: 100%;
 	background-size: cover;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover; 
 }
  img {
  	width: 100%;
