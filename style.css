@@ -3,7 +3,6 @@
  html, body {
  	height: 100%;
  	width: 100%;
- 	background-color: none;
  	font-family: manrope;
  	font-weight: lighter;
  	letter-spacing: .5px;
@@ -42,20 +41,11 @@
  #home {
  	background: url(img/bg1.jpg) no-repeat center center fixed;
  	display: table;
- 	height: 100%;
+ 	min-height: 100vh;
  	position: relative;
  	width: 100%;
  	background-size: cover;
 	}
-@media screen and (min-width: 400px) {
-	#home {
-	background: url(img/bg1-m.jpg) no-repeat center center fixed;
- 	height: auto%;
- 	position: relative;
- 	width: 100%;
- 	background-size: cover;
-	}
-}
 
 .landing-text {
 	display: table-cell;
