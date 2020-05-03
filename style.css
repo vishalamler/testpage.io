@@ -42,9 +42,12 @@
  	background: url(img/bg1.jpg) no-repeat center center fixed;
  	display: table;
  	min-height: 100%;
- 	position: absolute;
+ 	position: relative;
  	width: 100%;
  	background-size: cover;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;  
 	}
 
 .landing-text {
