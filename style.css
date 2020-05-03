@@ -49,8 +49,12 @@
 	}
 @media screen and (max-width: 400px) {
 	#home {
-	height: 900px;
-	background-size: cover;
+	background: url(./img/bg1-m.jpg) no-repeat center center fixed;
+ 	display: table;
+ 	height: 100%;
+ 	position: relative;
+ 	width: 100%;
+ 	background-size: cover;
 	}
 }
 
