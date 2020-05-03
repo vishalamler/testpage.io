@@ -76,7 +76,7 @@
 
 #fixed {
 	background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url(./img/bg2.jpg) no-repeat center center fixed;
-	display: table;
+	display: block;
 	height: 60%;
 	position: relative;
 	width: 100%;
