@@ -49,16 +49,6 @@
 	-moz-background-size: cover;
 	-o-background-size: cover;  
 	}
-@media screen and (max-width: 400px) {
-	#home {
-		background: url(img/bg1-m.jpg) no-repeat center center fixed;
-	 	display: table;
-	 	height: 100vh;
-	 	position: relative;
-	 	width: 100vw;
-		background-size: cover;
-	}
-}
 
 .landing-text {
 	display: table-cell;
