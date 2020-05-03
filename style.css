@@ -53,10 +53,10 @@
 	#home {
 		background: url(img/bg1-m.jpg) no-repeat center center fixed;
 	 	display: table;
-	 	height: 866px;
+	 	height: 100vh;
 	 	position: relative;
-	 	width: 400px;
-		background-size: fill;
+	 	width: 100vw;
+		background-size: cover;
 	}
 }
 
