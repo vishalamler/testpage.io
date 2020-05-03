@@ -41,9 +41,9 @@
  #home {
  	background: url(img/bg1.jpg) no-repeat center center fixed;
  	display: table;
- 	min-height: 100vh;
- 	position: relative;
- 	width: 100vw;
+ 	min-height: 100%;
+ 	position: absolute;
+ 	width: 100%;
  	background-size: cover;
 	}
 
