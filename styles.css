@@ -1,24 +1,16 @@
 html, body {
- 	height: 100vh;
- 	width: 100vw;
+ 	height: 100%;
+      margin: 0;
  }
 
-#background-1 {
- 	background: url(img/bg3.jpg) no-repeat center center;
-	background-attachment: fixed;
- 	display: table;
- 	height: 100vh;
- 	position: relative;
- 	width: 100vw;
- 	background-size: cover;
-	-webkit-background-size: cover;
-	-moz-background-size: cover;
-	-o-background-size: cover;  
-	}
+.parallax {
+      background:url(img/bg3.jpg) no-repeat center center;
+      background-attachment: fixed;
+      height: 100%;
+      background-size: cover;
 }
 @media only screen and (max-device-width: 800px) {
-
-	#background-1 {
+      .parallax {
     background-attachment: scroll;
   }
 }
