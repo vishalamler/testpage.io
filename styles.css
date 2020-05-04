@@ -4,7 +4,8 @@ html, body {
  }
 
 #background-1 {
- 	background: url(img/bg3.jpg) no-repeat center center fixed;
+ 	background: url(img/bg3.jpg) no-repeat center center;
+	background-attachment: fixed;
  	display: table;
  	height: 100vh;
  	position: relative;
