@@ -15,3 +15,8 @@ html, body {
 	-o-background-size: cover;  
 	}
 }
+@media only screen and (max-device-width: 800px) {
+  .parallax {
+    background-attachment: scroll;
+  }
+}
